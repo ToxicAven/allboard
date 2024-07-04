@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "allboard"
+version = "0.1.0"
+description = "A simple discord bot similar to Starboard, but for all emojis"
+authors = ["Jade Herd <toxicaven@disroot.org>"]
+license = "ISC"
+readme = "README.md"
+repository = "https://github.com/ToxicAven/allboard"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+py-cord = "^2.5.0"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
